@@ -1,0 +1,143 @@
+$style: center;
+$color: red;
+$minimum_padding: 15px;
+$fontsize: 15px;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;  
+}
+
+#smologo {
+    height: 50px;
+    padding-left: 10px;
+}
+
+img {
+    max-width: 275px;
+    height: auto;
+}
+
+.link {
+    // display: block;
+    // position: absolute;
+    // top: 20px;
+    // right: 20px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+#logo {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#imglbl {
+    color: blue;
+    font-size: 18px;
+    position: absolute;
+    bottom: 280px;
+    right: 400px
+}
+
+.form {   
+    text-align: $style;
+    vertical-align: $style;
+    max-width: 500px;
+    margin: auto;
+}
+
+
+#field {
+    // display: flex;
+    // flex-wrap: wrap;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 450px;
+    padding: 10px 10px;
+    font-size: $minimum_padding;
+    border-color: grey;
+    box-shadow: 0 0 0 0 rgba(136, 136, 136, 0);
+}
+
+.advcdfield {
+    width: 500px;
+    margin-top: 50px;   
+    border-color: grey;
+    padding: 5px;
+}
+
+
+.advcdlabel {
+    font-size: $fontsize;
+    padding-right: 150px;
+    display: inline-block;
+    width: 100px;
+}
+
+.inform {
+    text-align: left;
+}
+
+.adcvdbutton {
+    text-align: $style;
+    display: flex;
+    position: relative;
+    bottom: -50px;
+    right: -640px;
+    width: 125px;
+    height: 45px;
+    background-color: #4d90fe;
+    color: white;
+}
+
+.todo {
+    padding-left: 50px;
+    font-size: $fontsize;
+}
+
+.thislabel {
+    font-size: 18px;
+}
+.a1 {
+    padding-left: 20px;
+}
+
+.buttons {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-wrapper {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+// @media (min-width: 600px) {
+//     body {
+//         background-color: red;
+//     }
+// }
+
+// @media (max-width: 599px) {
+//     body {
+//         background-color: royalblue;
+//     }
+// }
