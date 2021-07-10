@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced search</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Links to Homepage and Images Search -->
+        <div class="link">
+            <a href="index.html" style="padding-right: 15px;">Google Search</a>
+            <a href="images.html" style="padding-right: 15px;">Google Image</a>
+        </div>
+        <div>
+            <img id="smologo" src="images/google transparent.png">
+        </div>
+        <div class="a1">
+            <table>
+                <tr><h1 style="color: rgb(175, 57, 57);">Advanced Search</h1></tr>
+            </table>
+            <label class="thislabel">Find pages with...</label><label class="thislabel" style="padding-left: 680px;">To do this in the search box.</label>
+            <div class="advancedForm">
+                <form action="https://www.google.com/search">
+                    <div class="inform">
+                        <label class="advcdlabel">all these words: </label>
+                        <input class="advcdfield" type="text" name="as_q">
+                        <label class="todo">Type the important words: tri-colour rat terrier</label>
+                    </div>
+                    <div class="inform">
+                        <label class="advcdlabel">this exact word or phrase: </label>
+                        <input class="advcdfield" type="text" name="as_epq">
+                        <label class="todo">Put exact words in quotes: "rat terrier"</label>
+                    </div>  
+                    <div class="inform">
+                        <label class="advcdlabel">any of these words: </label>
+                        <input class="advcdfield" type="text" name="as_oq">
+                        <label class="todo">Type OR between all the words you want: miniature OR standard</label>
+                    </div>
+                    <div class="inform">
+                        <label class="advcdlabel">none of these words: </label>
+                        <input class="advcdfield" type="text" name="as_eq">
+                        <label class="todo">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</label>
+                    </div>
+                    <div>
+                        <input class="adcvdbutton" type="submit" value="Advanced Search">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+
