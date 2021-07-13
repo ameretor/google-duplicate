@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Google</title>
-        <link rel="stylesheet" href="css/style.css">
-        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
-    </head>
-    <body>
-        <!-- Links to Advanced Search and Images Search -->
-        <div class="link">
-            <a href="images.html" style="padding-right: 15px;">Google Image</a>
-            <a href="advanced.html" style="padding-right: 15px;">Advanced Search</a>
+  <head>
+    <title>Google</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+  </head>
+  <body>
+    <!-- Links to Advanced Search and Images Search -->
+    <div class="link">
+      <a href="images.html" style="padding-right: 15px">Google Image</a>
+      <a href="advanced.html" style="padding-right: 15px">Advanced Search</a>
+    </div>
+    <!-- Form -->
+    <div class="content">
+      <div class="search-wrapper">
+        <!-- Logo -->
+        <div id="logo">
+          <img id="gif" src="images/google.png" alt="Google" />
         </div>
-        <!-- Form -->
-        <div class="content">
-            <div class="search-wrapper">
-                <!-- Logo -->
-                <div id="logo">
-                    <img id="gif" src="images/google.png" alt="Google">
-                </div>
-                <div class="form">  
-                    <form action="https://www.google.com/search">
-                        <input type="text" id="field" name="q" autofocus="" placeholder="Type in URL or Google Search">
-                        <!-- Buttons -->
-                        <div class="buttons">
-                            <input type="submit" id="Search" value="Google Search">
-                            <input type="submit" id="I'm feeling lucky" name="btnI" formaction="https://google.com/search?&btnI=1" value="I'm feeling lucky">
-                        </div>
-                    </form>
-                </div>
+        <div class="form">
+          <form action="https://www.google.com/search">
+            <input
+              type="text"
+              id="field"
+              name="q"
+              autofocus=""
+              placeholder="Type in URL or Google Search"
+            />
+            <!-- Buttons -->
+            <div class="buttons">
+              <input type="submit" id="Search" value="Google Search" />
+              <input
+                type="submit"
+                id="I'm feeling lucky"
+                name="btnI"
+                formaction="https://google.com/search?&btnI=1"
+                value="I'm feeling lucky"
+              />
             </div>
+          </form>
         </div>
-    </body>
+      </div>
+    </div>
+  </body>
 </html>
